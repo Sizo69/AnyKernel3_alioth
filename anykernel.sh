@@ -4,19 +4,15 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Neo-Kernel
-do.devicecheck=1
+kernel.string=Perry-GKI
+do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=vayu
-device.name2=bhima
-device.name3=
-device.name4=
-device.name5=
-supported.versions=11.0-14.0
+supported.versions=
 supported.patchlevels=
+supported.vendorpatchlevels=
 '; } # end properties
 
 # shell variables
