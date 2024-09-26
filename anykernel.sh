@@ -4,15 +4,19 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Perry-GKI
-do.devicecheck=0
+kernel.string=Perry-Kernel
+do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-supported.versions=
+device.name1=vayu
+device.name2=bhima
+device.name3=
+device.name4=
+device.name5=
+supported.versions=11.0-14.0
 supported.patchlevels=
-supported.vendorpatchlevels=
 '; } # end properties
 
 # shell variables
